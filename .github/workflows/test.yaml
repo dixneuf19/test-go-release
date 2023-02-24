@@ -1,0 +1,11 @@
+on:
+  release:
+    types: [published]
+name: test
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    # echo all the environment variables
+    - run: env
+    - run: echo ${{ github.env }}      
