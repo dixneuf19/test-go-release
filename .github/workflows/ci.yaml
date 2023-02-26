@@ -45,7 +45,8 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - uses: google-github-actions/release-please-action@v3
-      if: ${{ github.ref_name == 'main' }}}
+    # run only if push to main branch
+      if: github.ref_name == 'main'
       with:
         release-type: go
     
