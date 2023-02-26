@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/dixneuf19/test-go-release/compare/v1.0.0...v1.1.0) (2023-02-26)
+
+
+### Features
+
+* add tag when deploying image ([3889bea](https://github.com/dixneuf19/test-go-release/commit/3889beaed2296f9b200045459026b99950be949e))
+
 ## 1.0.0 (2023-02-26)
 
 
