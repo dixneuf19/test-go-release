@@ -1,6 +1,5 @@
 FROM golang:1.19 AS build
 
-ARG PACKAGE=test-ga
 ARG VERSION
 ARG COMMIT_HASH
 ARG BUILD_TIMESTAMP
@@ -14,9 +13,9 @@ RUN go mod download
 COPY *.go ./
 
 RUN go build -ldflags="\
-          -X ${PACKAGE}/internal/version.Version=${VERSION} \
-          -X ${PACKAGE}/internal/version.CommitHash=${COMMIT_HASH} \
-          -X ${PACKAGE}/internal/version.BuildTimestamp=${BUILD_TIMESTAMP}" \
+          -X main.Version=${VERSION} \
+          -X main.CommitHash=${COMMIT_HASH} \
+          -X main.BuildTimestamp=${BUILD_TIMESTAMP}" \
         -o /test-ga
 
 FROM gcr.io/distroless/base-debian10
