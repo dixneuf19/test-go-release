@@ -27,7 +27,7 @@ jobs:
     - name: debug
       run: |
         env
-        echo {{ github.env }}
+        echo ${{ github.env }}
 
     - name: Checkout
       uses: actions/checkout@v3
