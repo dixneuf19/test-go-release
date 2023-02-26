@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/dixneuf19/test-go-release/compare/v1.2.0...v1.3.0) (2023-02-26)
+
+
+### Features
+
+* keep main tag when we have a release ([6eb7e00](https://github.com/dixneuf19/test-go-release/commit/6eb7e001185a9ef8a25b09ac29cc292c3c9c842c))
+
 ## [1.2.0](https://github.com/dixneuf19/test-go-release/compare/v1.1.1...v1.2.0) (2023-02-26)
 
 
