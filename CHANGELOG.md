@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/dixneuf19/test-go-release/compare/v1.1.0...v1.1.1) (2023-02-26)
+
+
+### Bug Fixes
+
+* condition on tag ([3f2a1bf](https://github.com/dixneuf19/test-go-release/commit/3f2a1bf0dda32c6299c0af25253a0cea0c1cb2c7))
+
 ## [1.1.0](https://github.com/dixneuf19/test-go-release/compare/v1.0.0...v1.1.0) (2023-02-26)
 
 
